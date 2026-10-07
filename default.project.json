@@ -1,0 +1,26 @@
+{
+  "name": "Warrr",
+  "servePort": 34872,
+  "tree": {
+    "$className": "DataModel",
+    "$ignoreUnknownInstances": true,
+    "ServerScriptService": {
+      "$className": "ServerScriptService",
+      "$ignoreUnknownInstances": true,
+      "WarrrServer": {
+        "$path": "prototype/Server.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "$className": "StarterPlayer",
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+        "$className": "StarterPlayerScripts",
+        "$ignoreUnknownInstances": true,
+        "WarrrClient": {
+          "$path": "prototype/Client.client.luau"
+        }
+      }
+    }
+  }
+}
